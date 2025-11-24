@@ -109,3 +109,7 @@
     margin-left: 26px;
   }
 }
+
+header[role="banner"] {
+  display: none !important;
+}
