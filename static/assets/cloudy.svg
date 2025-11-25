@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cloudy logo mark">
+  <defs>
+    <linearGradient id="cloudGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud -->
+  <circle cx="128" cy="96" r="52" fill="url(#cloudGrad)"/>
+  <circle cx="92" cy="112" r="40" fill="url(#cloudGrad)"/>
+  <circle cx="164" cy="112" r="40" fill="url(#cloudGrad)"/>
+  <rect x="88" y="140" width="80" height="40" rx="20" fill="url(#cloudGrad)"/>
+
+  <!-- Face -->
+  <circle cx="115" cy="102" r="5" fill="#0F172A"/>
+  <circle cx="141" cy="102" r="5" fill="#0F172A"/>
+  <path d="M 110 122 Q 128 136 146 122" stroke="#0F172A" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Chat bubble -->
+  <rect x="104" y="148" width="96" height="40" rx="12" fill="#FFFFFF" opacity="0.92"/>
+  <path d="M 132 188 L 128 206 L 146 192" fill="#FFFFFF" opacity="0.92"/>
+  <circle cx="120" cy="168" r="4" fill="#2563EB"/>
+  <circle cx="136" cy="168" r="4" fill="#2563EB"/>
+  <circle cx="152" cy="168" r="4" fill="#2563EB"/>
+
+  <!-- Spark -->
+  <g transform="translate(188,84) scale(1.5)">
+    <polygon points="0,-6 2,-2 6,0 2,2 0,6 -2,2 -6,0 -2,-2" fill="#F59E0B"/>
+  </g>
+</svg>
