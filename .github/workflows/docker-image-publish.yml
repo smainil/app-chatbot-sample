@@ -5,6 +5,9 @@ on:
   #   branches:
   #   - main
   workflow_dispatch:
+    inputs:
+      image-version:
+        description: "Docker image version"
 
 jobs:
 
@@ -26,7 +29,7 @@ jobs:
           context: .
           file: WebApp.Dockerfile
           push: true
-          tags: "smainil/app-chatbot-sample:0.0.5,smainil/app-chatbot-sample:latest"
+          tags: "smainil/app-chatbot-sample:${{ inputs.image-version }},smainil/app-chatbot-sample:latest"
 
         
     # - uses: actions/checkout@v3
